@@ -1,0 +1,108 @@
+
+font{
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.container1{
+    border: 1px solid black;
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 400px;
+    
+}
+.container2{
+   
+    width: calc(100% - 400px);
+    height: 100vh;
+    background-color: #F9FAFB;
+    
+
+}
+.text{
+  
+    height: 100px;
+    width: 80%;
+    display: flex;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4%;
+    margin-top: 10%;
+}
+.container3{
+    background-color: white;
+    /* width: 940px; */
+    height: 300px;
+    margin-top: 0%;
+   
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}.header{
+   
+    height: 30px;
+    width: 100%;
+    display: flex;
+    margin-left: 4%;
+}
+.form{
+    
+    height: 270px;
+    width: 350px;
+    margin-left: 4%;
+    
+}
+.form1{
+   
+    height: 270px;
+    width: 350px;
+    margin-left: 50%;
+    margin-top: -28.5%;
+    
+}
+.button{
+    height: 20%;
+    width: 40%;
+    margin-top: 4%;
+    margin-left: 4%;
+   
+
+}
+button{
+    background-color: rgb(4, 75, 4);
+    height: 30%;
+    width: 45%;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+a:link{
+    text-decoration: none;
+    color: green;
+ 
+}
+input{
+    border:1px solid #dcdddd;
+    border-radius: 4px;
+}
+.logo{
+    background: rgba(0, 0, 0, 0.5);
+    height: 20%;
+    width: 100%;
+    margin-top: 30%;
+    justify-content: center;
+    display: flex;
+}
+text{
+    margin-top: 10%;
+    color: white;
+    font-family:"Norse" ;
+    font-size: 300%;
+}
+
